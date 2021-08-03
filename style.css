@@ -1,0 +1,370 @@
+
+body{
+background-color: #000000;
+background: black;
+
+}
+.header{
+    background-color: #d6c210;
+    text-align: center;
+}
+.logo-header{
+    
+    width: 100px;
+}
+.titulo{
+    text-align: center;
+}
+.header_area{
+    padding: 20px;
+
+}
+.logo{
+    width: 350px;
+    text-align: center;
+    padding-left: 20px;
+}
+.navbar-nav {
+    margin-left: 30px;
+}
+#box-filmes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #252323;
+    
+}
+
+#box-filmes img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#box-filmes span{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#box-filmes a{
+    margin-bottom: 10px;
+}
+
+#resultSearch{
+    background-color: black;
+}
+
+#titleResult{
+    color: #d6c210;
+}
+#resultSearch{
+    display: flex;
+    
+}
+.nav-link{
+    color:gray;
+    text-decoration:none;
+}
+#tela{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-link:hover{
+    color:gray;
+    text-decoration:none;
+}
+
+
+.linkMovies{
+    color: white;
+    text-decoration: none;
+}
+.carousel-control-prev{
+    padding-right: 130px !important;
+    
+}
+.carousel-control-next{
+    padding-left: 130px !important;
+    
+
+}
+
+.carousel-item{
+    height: 450px ;
+
+}
+.vidin-lan{
+    background-color: #000000;
+}
+
+
+
+.main{
+    background-color: black;
+    color: #d6c210;
+}
+
+.img-fluid{
+    color: #d6c210;
+    max-width: 100%;
+    padding: 10px;
+    max-height: 100%;
+    background-color: #d6c210;
+}
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-dsq {
+    margin-left:2px;
+}
+/*BOOTSNIPP DAS AVALIACOES*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: rgb(0, 0, 0) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: #d6c210;
+    border-color: #d6c210;
+}
+
+section {
+    background-color: black;
+    padding: 60px 0;
+}
+
+section .section-title {
+    
+    color: #d6c210;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #000000;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #d6c210 !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #d6c210 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+/*FIM BOOTSNIPP AVALIACOES*/
+.padding.video{
+    padding-right: 40px;
+}
+.MOarea{
+margin-left: 50px;
+
+}
+.NSE{
+    margin-top: 50px;
+}
+.titulo-novidade{
+    font-size: medium;
+}
+.editorial{
+    margin-bottom: 20px;
+}
+div.barra{
+    margin-top: 20px;
+}
+.textin-bunitin{
+    color: rgb(0, 0, 0);
+    background-color: #d6c210;
+    text-align: center;
+    margin-right: 50px;
+    border-radius: 10px;
+    
+}
+#socialMedia{
+    color: #d6c210;
+}
+
+#socialMedia:hover{
+    color: #bdb786;
+}
+
+
+
+.div-barra:after{
+    content:"";
+    display:block;
+    width:450px;
+    height:3px;
+    color: #6b6b6b;
+    background:#6b6b6b;
+    margin:2px auto
+}
+.img-nov{
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #d6c210;
+    color: black;
+    
+}
+.footer_area{
+    padding: 20px;
+}
+.logoF{
+    width: 100px;
+    
+}
+
+
+  /*Media Queries*/
+
+@media screen and (min-width:240px) and (max-width:768px){
+
+.texto-lan{
+    display: none;
+}
+.carousel-item{
+    height: 450px ;
+    
+ }
+ .div-barra:after{
+    content:"";
+    display:block;
+    width:200px;
+    height:3px;
+    color: #6b6b6b;
+    background:#6b6b6b;
+    margin:2px auto;
+    margin-bottom: 10px;
+}
+
+
+.logoF{
+    width:100px;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 35%;
+}
+    
+}
+  
+@media screen and (min-width:769px) and (max-width:1199px){
+    .texto-lan{
+        display: none;
+    }
+    .carousel-item{
+        height: 450px ;
+        
+     }
+
+     .vidin-lan iframe{
+         width: 900px !important;
+     }
+     .div-barra:after{
+        content:"";
+        display:block;
+        width:275px;
+        height:3px;
+        color: #6b6b6b;
+        background:#6b6b6b;
+        margin:2px auto;
+        margin-bottom: 10px;
+    }
+}
